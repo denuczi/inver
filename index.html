@@ -7,7 +7,6 @@
 	
 	<style>
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
-
 :root {
     --bg-primary: rgba(19, 23, 34, 0.9);
     --bg-secondary: rgba(30, 34, 45, 0.95);
@@ -23,13 +22,11 @@
     --glass-effect: rgba(255, 255, 255, 0.025);
     --box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
 }
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
     color: var(--text-primary);
@@ -257,8 +254,6 @@ body::before {
     font-size: 1.5rem;
     font-weight: 700;
 }
-
-/* Scrollbar personalizado */
 ::-webkit-scrollbar {
     width: 10px;
     height: 10px;
@@ -277,8 +272,6 @@ body::before {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--hover-bg);
 }
-
-/* Media queries mejorados */
 @media (max-width: 1200px) {
     .days-container {
         grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -332,8 +325,6 @@ body::before {
         padding: 1.25rem;
     }
 }
-
-/* Mejoras de accesibilidad */
 @media (prefers-reduced-motion: reduce) {
     * {
         transition: none !important;
@@ -344,8 +335,6 @@ body::before {
     outline: 2px solid var(--accent-blue);
     outline-offset: 2px;
 }
-
-/* Efectos de hover mejorados */
 .day:hover .total-amount {
     color: #ffffff;
 }
